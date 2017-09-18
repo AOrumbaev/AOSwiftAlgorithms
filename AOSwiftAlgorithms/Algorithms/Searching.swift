@@ -34,4 +34,26 @@ struct Search {
             }
         }
     }
+    
+    
+    public static func binarySearchIterative<T: Comparable>(_ array: [T], key: T) -> Int? {
+        var lowBound = 0
+        var upperBound = array.count
+        
+        while lowBound < upperBound {
+            let midIndex = lowBound + (upperBound - lowBound)/2
+            
+            if array[midIndex] == key {
+                return midIndex
+            }
+            else if array[midIndex] < key {
+                lowBound = midIndex + 1
+            } else {
+                upperBound = midIndex
+            }
+        }
+        
+        return nil
+    }
+    
 }
