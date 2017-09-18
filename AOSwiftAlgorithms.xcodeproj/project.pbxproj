@@ -12,6 +12,8 @@
 		2BE041AB1F6FE41400CC131B /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE041AA1F6FE41400CC131B /* Queue.swift */; };
 		2BE041AD1F6FE9F100CC131B /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE041AC1F6FE9F100CC131B /* Sorting.swift */; };
 		2BE041AF1F6FF04700CC131B /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE041AE1F6FF04700CC131B /* Searching.swift */; };
+		2BE041B11F701CA500CC131B /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE041B01F701CA500CC131B /* BinarySearchTree.swift */; };
+		2BE041BC1F704AFB00CC131B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE041BB1F704AFB00CC131B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +35,9 @@
 		2BE041AA1F6FE41400CC131B /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		2BE041AC1F6FE9F100CC131B /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
 		2BE041AE1F6FF04700CC131B /* Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
+		2BE041B01F701CA500CC131B /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
+		2BE041B31F70215C00CC131B /* AOSwiftAlgorithms-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AOSwiftAlgorithms-Bridging-Header.h"; sourceTree = "<group>"; };
+		2BE041BB1F704AFB00CC131B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,8 @@
 		2B1987991F6FDAE3001E0A00 /* AOSwiftAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
+				2BE041BA1F704AE000CC131B /* Extensions */,
+				2BE041B21F7020F600CC131B /* Resources */,
 				2BE041A71F6FE1C800CC131B /* Data Structures */,
 				2BE041A61F6FE1C100CC131B /* Algorithms */,
 				2B19879A1F6FDAE3001E0A00 /* main.swift */,
@@ -86,8 +93,25 @@
 			children = (
 				2BE041A81F6FE1DA00CC131B /* Stack.swift */,
 				2BE041AA1F6FE41400CC131B /* Queue.swift */,
+				2BE041B01F701CA500CC131B /* BinarySearchTree.swift */,
 			);
 			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		2BE041B21F7020F600CC131B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BE041B31F70215C00CC131B /* AOSwiftAlgorithms-Bridging-Header.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2BE041BA1F704AE000CC131B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2BE041BB1F704AFB00CC131B /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +146,7 @@
 				TargetAttributes = {
 					2B1987961F6FDAE3001E0A00 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -150,6 +175,8 @@
 			files = (
 				2BE041A91F6FE1DA00CC131B /* Stack.swift in Sources */,
 				2BE041AD1F6FE9F100CC131B /* Sorting.swift in Sources */,
+				2BE041BC1F704AFB00CC131B /* Extensions.swift in Sources */,
+				2BE041B11F701CA500CC131B /* BinarySearchTree.swift in Sources */,
 				2BE041AB1F6FE41400CC131B /* Queue.swift in Sources */,
 				2BE041AF1F6FF04700CC131B /* Searching.swift in Sources */,
 				2B19879B1F6FDAE3001E0A00 /* main.swift in Sources */,
@@ -268,9 +295,14 @@
 		2B19879F1F6FDAE3001E0A00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XNM36GWK3G;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AOSwiftAlgorithms/Resources/AOSwiftAlgorithms-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -278,9 +310,13 @@
 		2B1987A01F6FDAE3001E0A00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XNM36GWK3G;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AOSwiftAlgorithms/Resources/AOSwiftAlgorithms-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;

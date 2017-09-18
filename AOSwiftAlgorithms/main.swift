@@ -31,6 +31,9 @@ print("\(testQueue) first item \(firstItem)")
 var q = EfficientQueue<String>()
 print(q.array)
 
+//MARK: Binary Search Tree
+var bsTree = BinarySearchTree<Int>.init(array: [7, 2, 5, 10, 9, 1])
+BinarySearchTree.prettyPrint(tree: bsTree, offset: 0)
 
 // ----------------------------------------------------------------------
 //MARK: - Algorithms
