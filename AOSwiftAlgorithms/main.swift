@@ -8,5 +8,11 @@
 
 import Foundation
 
-print("Hello, World!")
 
+//MARK: - Stack
+var testStack = Stack<String>()
+testStack.push("hello")
+testStack.push("world")
+print(testStack)
+testStack.pop()
+print(testStack)
