@@ -10,6 +10,8 @@
 		2B19879B1F6FDAE3001E0A00 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19879A1F6FDAE3001E0A00 /* main.swift */; };
 		2BE041A91F6FE1DA00CC131B /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE041A81F6FE1DA00CC131B /* Stack.swift */; };
 		2BE041AB1F6FE41400CC131B /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE041AA1F6FE41400CC131B /* Queue.swift */; };
+		2BE041AD1F6FE9F100CC131B /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE041AC1F6FE9F100CC131B /* Sorting.swift */; };
+		2BE041AF1F6FF04700CC131B /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE041AE1F6FF04700CC131B /* Searching.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		2B19879A1F6FDAE3001E0A00 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2BE041A81F6FE1DA00CC131B /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		2BE041AA1F6FE41400CC131B /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		2BE041AC1F6FE9F100CC131B /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
+		2BE041AE1F6FF04700CC131B /* Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		2BE041A61F6FE1C100CC131B /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				2BE041AC1F6FE9F100CC131B /* Sorting.swift */,
+				2BE041AE1F6FF04700CC131B /* Searching.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -143,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BE041A91F6FE1DA00CC131B /* Stack.swift in Sources */,
+				2BE041AD1F6FE9F100CC131B /* Sorting.swift in Sources */,
 				2BE041AB1F6FE41400CC131B /* Queue.swift in Sources */,
+				2BE041AF1F6FF04700CC131B /* Searching.swift in Sources */,
 				2B19879B1F6FDAE3001E0A00 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
