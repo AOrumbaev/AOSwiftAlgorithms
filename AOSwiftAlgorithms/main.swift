@@ -35,6 +35,13 @@ print(q.array)
 var bsTree = BinarySearchTree<Int>.init(array: [7, 2, 5, 10, 9, 1])
 BinarySearchTree.prettyPrint(tree: bsTree, offset: 0)
 
+//MARK: Ordered Array
+
+var sortedArr = OrderedArray<Int>(array: [5, 6, 10])
+sortedArr.insert(-5)
+sortedArr.insert(3)
+sortedArr.insert(7)
+
 // ----------------------------------------------------------------------
 //MARK: - Algorithms
 //MARK: - Sorting
@@ -51,3 +58,8 @@ print(Sort.selectionSort(list))
 //MARK: Binary Search
 let binaryList = Sort.selectionSort([10, -1, 3, 9, 2, 27, 8, 5, 1, 3, 0, 26])
 print(Search.binarySearch(binaryList, key: 10, range: 0..<binaryList.count))
+
+//MARK: Boyer-Moore String pattern
+
+let index = "Hello World".index(of: "l")
+print(index?.encodedOffset)

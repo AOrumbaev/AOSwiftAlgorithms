@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B19879B1F6FDAE3001E0A00 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19879A1F6FDAE3001E0A00 /* main.swift */; };
+		2BA55A9A1F72A328007447B2 /* OrderedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA55A991F72A328007447B2 /* OrderedArray.swift */; };
 		2BE041A91F6FE1DA00CC131B /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE041A81F6FE1DA00CC131B /* Stack.swift */; };
 		2BE041AB1F6FE41400CC131B /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE041AA1F6FE41400CC131B /* Queue.swift */; };
 		2BE041AD1F6FE9F100CC131B /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE041AC1F6FE9F100CC131B /* Sorting.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		2B1987971F6FDAE3001E0A00 /* AOSwiftAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOSwiftAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B19879A1F6FDAE3001E0A00 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2BA55A991F72A328007447B2 /* OrderedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedArray.swift; sourceTree = "<group>"; };
 		2BE041A81F6FE1DA00CC131B /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		2BE041AA1F6FE41400CC131B /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		2BE041AC1F6FE9F100CC131B /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				2BE041A81F6FE1DA00CC131B /* Stack.swift */,
 				2BE041AA1F6FE41400CC131B /* Queue.swift */,
 				2BE041B01F701CA500CC131B /* BinarySearchTree.swift */,
+				2BA55A991F72A328007447B2 /* OrderedArray.swift */,
 			);
 			path = "Data Structures";
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				2BE041AD1F6FE9F100CC131B /* Sorting.swift in Sources */,
 				2BE041BC1F704AFB00CC131B /* Extensions.swift in Sources */,
 				2BE041B11F701CA500CC131B /* BinarySearchTree.swift in Sources */,
+				2BA55A9A1F72A328007447B2 /* OrderedArray.swift in Sources */,
 				2BE041AB1F6FE41400CC131B /* Queue.swift in Sources */,
 				2BE041AF1F6FF04700CC131B /* Searching.swift in Sources */,
 				2B19879B1F6FDAE3001E0A00 /* main.swift in Sources */,
