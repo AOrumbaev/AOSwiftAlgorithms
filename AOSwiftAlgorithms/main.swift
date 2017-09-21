@@ -42,6 +42,15 @@ sortedArr.insert(-5)
 sortedArr.insert(3)
 sortedArr.insert(7)
 
+
+//MARK: Linked List
+
+var llist = LinkedList<Int>.init()
+llist.append(value: 4)
+llist.append(value: 6)
+llist.append(value: -1)
+print("head = \(llist.head?.value), first = \(llist.first?.value)\n\(llist.count())")
+
 // ----------------------------------------------------------------------
 //MARK: - Algorithms
 //MARK: - Sorting

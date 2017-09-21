@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2B19879B1F6FDAE3001E0A00 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19879A1F6FDAE3001E0A00 /* main.swift */; };
 		2BA55A9A1F72A328007447B2 /* OrderedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA55A991F72A328007447B2 /* OrderedArray.swift */; };
+		2BCE63D81F73DB0F00FA22BE /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE63D71F73DB0F00FA22BE /* LinkedListNode.swift */; };
+		2BCE63DB1F73DB9800FA22BE /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE63DA1F73DB9800FA22BE /* LinkedList.swift */; };
 		2BE041A91F6FE1DA00CC131B /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE041A81F6FE1DA00CC131B /* Stack.swift */; };
 		2BE041AB1F6FE41400CC131B /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE041AA1F6FE41400CC131B /* Queue.swift */; };
 		2BE041AD1F6FE9F100CC131B /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE041AC1F6FE9F100CC131B /* Sorting.swift */; };
@@ -33,6 +35,8 @@
 		2B1987971F6FDAE3001E0A00 /* AOSwiftAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOSwiftAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B19879A1F6FDAE3001E0A00 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2BA55A991F72A328007447B2 /* OrderedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedArray.swift; sourceTree = "<group>"; };
+		2BCE63D71F73DB0F00FA22BE /* LinkedListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListNode.swift; sourceTree = "<group>"; };
+		2BCE63DA1F73DB9800FA22BE /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		2BE041A81F6FE1DA00CC131B /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		2BE041AA1F6FE41400CC131B /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		2BE041AC1F6FE9F100CC131B /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
@@ -81,6 +85,15 @@
 			path = AOSwiftAlgorithms;
 			sourceTree = "<group>";
 		};
+		2BCE63D91F73DB1300FA22BE /* Linked Lists */ = {
+			isa = PBXGroup;
+			children = (
+				2BCE63D71F73DB0F00FA22BE /* LinkedListNode.swift */,
+				2BCE63DA1F73DB9800FA22BE /* LinkedList.swift */,
+			);
+			path = "Linked Lists";
+			sourceTree = "<group>";
+		};
 		2BE041A61F6FE1C100CC131B /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +106,7 @@
 		2BE041A71F6FE1C800CC131B /* Data Structures */ = {
 			isa = PBXGroup;
 			children = (
+				2BCE63D91F73DB1300FA22BE /* Linked Lists */,
 				2BE041A81F6FE1DA00CC131B /* Stack.swift */,
 				2BE041AA1F6FE41400CC131B /* Queue.swift */,
 				2BE041B01F701CA500CC131B /* BinarySearchTree.swift */,
@@ -176,7 +190,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BCE63D81F73DB0F00FA22BE /* LinkedListNode.swift in Sources */,
 				2BE041A91F6FE1DA00CC131B /* Stack.swift in Sources */,
+				2BCE63DB1F73DB9800FA22BE /* LinkedList.swift in Sources */,
 				2BE041AD1F6FE9F100CC131B /* Sorting.swift in Sources */,
 				2BE041BC1F704AFB00CC131B /* Extensions.swift in Sources */,
 				2BE041B11F701CA500CC131B /* BinarySearchTree.swift in Sources */,
