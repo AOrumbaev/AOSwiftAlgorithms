@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2B19879B1F6FDAE3001E0A00 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19879A1F6FDAE3001E0A00 /* main.swift */; };
+		2B474A051F88DD8A0041B490 /* SplayTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B474A041F88DD8A0041B490 /* SplayTree.swift */; };
+		2B50EF881F8CC23B008BEFD4 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B50EF871F8CC23B008BEFD4 /* Trie.swift */; };
 		2BA55A9A1F72A328007447B2 /* OrderedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA55A991F72A328007447B2 /* OrderedArray.swift */; };
 		2BCE63D81F73DB0F00FA22BE /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE63D71F73DB0F00FA22BE /* LinkedListNode.swift */; };
 		2BCE63DB1F73DB9800FA22BE /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE63DA1F73DB9800FA22BE /* LinkedList.swift */; };
@@ -34,6 +36,8 @@
 /* Begin PBXFileReference section */
 		2B1987971F6FDAE3001E0A00 /* AOSwiftAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOSwiftAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B19879A1F6FDAE3001E0A00 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2B474A041F88DD8A0041B490 /* SplayTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplayTree.swift; sourceTree = "<group>"; };
+		2B50EF871F8CC23B008BEFD4 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		2BA55A991F72A328007447B2 /* OrderedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedArray.swift; sourceTree = "<group>"; };
 		2BCE63D71F73DB0F00FA22BE /* LinkedListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListNode.swift; sourceTree = "<group>"; };
 		2BCE63DA1F73DB9800FA22BE /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
@@ -85,6 +89,23 @@
 			path = AOSwiftAlgorithms;
 			sourceTree = "<group>";
 		};
+		2B474A031F88DD670041B490 /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				2BE041B01F701CA500CC131B /* BinarySearchTree.swift */,
+				2B474A041F88DD8A0041B490 /* SplayTree.swift */,
+			);
+			path = Trees;
+			sourceTree = "<group>";
+		};
+		2B50EF861F8CC22B008BEFD4 /* Tries */ = {
+			isa = PBXGroup;
+			children = (
+				2B50EF871F8CC23B008BEFD4 /* Trie.swift */,
+			);
+			path = Tries;
+			sourceTree = "<group>";
+		};
 		2BCE63D91F73DB1300FA22BE /* Linked Lists */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,10 +127,11 @@
 		2BE041A71F6FE1C800CC131B /* Data Structures */ = {
 			isa = PBXGroup;
 			children = (
+				2B50EF861F8CC22B008BEFD4 /* Tries */,
+				2B474A031F88DD670041B490 /* Trees */,
 				2BCE63D91F73DB1300FA22BE /* Linked Lists */,
 				2BE041A81F6FE1DA00CC131B /* Stack.swift */,
 				2BE041AA1F6FE41400CC131B /* Queue.swift */,
-				2BE041B01F701CA500CC131B /* BinarySearchTree.swift */,
 				2BA55A991F72A328007447B2 /* OrderedArray.swift */,
 			);
 			path = "Data Structures";
@@ -190,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B474A051F88DD8A0041B490 /* SplayTree.swift in Sources */,
 				2BCE63D81F73DB0F00FA22BE /* LinkedListNode.swift in Sources */,
 				2BE041A91F6FE1DA00CC131B /* Stack.swift in Sources */,
 				2BCE63DB1F73DB9800FA22BE /* LinkedList.swift in Sources */,
@@ -198,6 +221,7 @@
 				2BE041B11F701CA500CC131B /* BinarySearchTree.swift in Sources */,
 				2BA55A9A1F72A328007447B2 /* OrderedArray.swift in Sources */,
 				2BE041AB1F6FE41400CC131B /* Queue.swift in Sources */,
+				2B50EF881F8CC23B008BEFD4 /* Trie.swift in Sources */,
 				2BE041AF1F6FF04700CC131B /* Searching.swift in Sources */,
 				2B19879B1F6FDAE3001E0A00 /* main.swift in Sources */,
 			);
